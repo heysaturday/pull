@@ -1,0 +1,113 @@
+[{
+  "_id": "5c339230b203973715f331ff",
+  "lastUpdated": "2019-01-07T17:53:52.684Z",
+  "createdOn": "2018-05-23T18:03:57.661Z",
+  "name": "Physicians",
+  "slug": "physicians",
+  "singularName": "Physician"
+}, {
+  "_id": "5c339230b203977f9df33200",
+  "lastUpdated": "2019-01-07T17:53:52.692Z",
+  "createdOn": "2018-07-24T21:52:03.607Z",
+  "name": "Services",
+  "slug": "services",
+  "singularName": "Service"
+}, {
+  "_id": "5c339230b203975f56f33201",
+  "lastUpdated": "2019-01-07T17:53:52.694Z",
+  "createdOn": "2018-07-24T21:52:33.920Z",
+  "name": "Categories",
+  "slug": "category",
+  "singularName": "Category"
+}, {
+  "_id": "5c339230b203975d4af33202",
+  "lastUpdated": "2019-01-07T17:53:52.695Z",
+  "createdOn": "2018-07-30T15:39:59.324Z",
+  "name": "Posts",
+  "slug": "post",
+  "singularName": "Post"
+}, {
+  "_id": "5c339230b2039748e9f33203",
+  "lastUpdated": "2019-01-07T17:53:52.697Z",
+  "createdOn": "2018-10-15T21:15:00.415Z",
+  "name": "Locations",
+  "slug": "locations",
+  "singularName": "Location"
+}, {
+  "_id": "5c339230b2039760c0f33204",
+  "lastUpdated": "2019-01-07T22:14:41.938Z",
+  "createdOn": "2018-10-15T22:06:50.947Z",
+  "name": "Onslow Pulmonology Associates",
+  "slug": "pulmonology-associates",
+  "singularName": "Onslow Pulmonology Associate"
+}, {
+  "_id": "5c339230b20397ec08f33205",
+  "lastUpdated": "2019-01-07T17:53:52.701Z",
+  "createdOn": "2018-10-26T15:34:33.058Z",
+  "name": "Related Content",
+  "slug": "related",
+  "singularName": "Related Content"
+}, {
+  "_id": "5c339230b203971b72f33206",
+  "lastUpdated": "2019-01-07T17:53:52.702Z",
+  "createdOn": "2018-11-14T21:52:25.301Z",
+  "name": "_tags",
+  "slug": "tags",
+  "singularName": "_tag"
+}, {
+  "_id": "5c339230b20397825cf33207",
+  "lastUpdated": "2019-01-07T17:53:52.704Z",
+  "createdOn": "2018-11-26T13:58:18.193Z",
+  "name": "Onslow Radiation Oncologies",
+  "slug": "oro",
+  "singularName": "Onslow Radiation Oncology"
+}, {
+  "_id": "5c339230b20397f639f33208",
+  "lastUpdated": "2019-01-07T17:53:52.706Z",
+  "createdOn": "2018-11-26T16:22:57.561Z",
+  "name": "Staff Members",
+  "slug": "staff",
+  "singularName": "Staff Member"
+}, {
+  "_id": "5c339230b2039771bef33209",
+  "lastUpdated": "2019-01-07T17:53:52.708Z",
+  "createdOn": "2018-12-03T20:48:06.003Z",
+  "name": "Sidebars",
+  "slug": "sidebars",
+  "singularName": "Sidebar"
+}, {
+  "_id": "5c339230b20397d314f3320a",
+  "lastUpdated": "2019-01-07T17:53:52.711Z",
+  "createdOn": "2018-12-11T20:58:29.135Z",
+  "name": "Onslow Foundation",
+  "slug": "foundation",
+  "singularName": "Onslow Foundation"
+}, {
+  "_id": "5c3392c280d4b4436d55093c",
+  "lastUpdated": "2019-01-07T17:56:51.586Z",
+  "createdOn": "2019-01-07T17:56:18.338Z",
+  "name": "Onslow Ear Nose & Throat Pages",
+  "slug": "onslow-ent",
+  "singularName": "Onslow Ear Nose & Throat"
+}, {
+  "_id": "5c33bd6846fbebebc0b811ac",
+  "lastUpdated": "2019-01-07T20:58:30.341Z",
+  "createdOn": "2019-01-07T20:58:16.184Z",
+  "name": "Central Coast Dermatology",
+  "slug": "central-coast-dermatology",
+  "singularName": "Central Coast Dermatology"
+}, {
+  "_id": "5c33ce47999bc60785b00319",
+  "lastUpdated": "2019-01-07T22:10:39.790Z",
+  "createdOn": "2019-01-07T22:10:15.504Z",
+  "name": "Onslow Internal Medicine",
+  "slug": "internal-med",
+  "singularName": "Onslow Internal Medicine"
+}, {
+  "_id": "5c33cf264316fac8273853ec",
+  "lastUpdated": "2019-01-07T22:14:35.142Z",
+  "createdOn": "2019-01-07T22:13:58.426Z",
+  "name": "Onslow Surgical Clinic",
+  "slug": "onslow-surgical-clinic",
+  "singularName": "Onslow Surgical Clinic"
+}]
