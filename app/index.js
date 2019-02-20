@@ -19,27 +19,46 @@ var options = {
 const webflow = new Webflow(options.headers);
 const site = webflow.sites(options);
 const collections = webflow.collections(options);
-const collectionIds = [];
+var collectionIds = [];
 var content;
 fs.readFile('collections.json', 'utf8', function read(err,data) {
   if(err) thow(err);
   content = JSON.parse(data);
   console.log(content.length);
-  for (let item of content) {
-    collectionIds.push(item._id)
-
+  var i;
+  for (i = 0; i < content.length; i++) {
+    collectionIds.push({'name': content[i].name, '_id': content[i]._id});
   }
-  console.log(collectionIds);
-  for(let item of collectionIds){
-    var allItems = [];
-    allItems.push(webflow.items({collectionId: `${item}`}));
-    for (let item of allItems) {
-      item.then(i => function() {
-        fs.writeFile(`/json/${i.name.replace(/\s/g, '')}.json`, i, function(err) {
-          if(err) {
-            return console.log(err);
-          }
-          console.log("The Files Have Synced!");
-        })
-      }
-    )}}})
+  function syncFiles(itemId) {
+var collection = webflow.items({collectionId: itemId});
+collection.then(i => {
+
+  fs.writeFile(`./json/${content[a].name.replace(/\s/g, '')}.json`, JSON.stringify(i), function (err){
+    if(err){
+      return console.log(err);
+    }
+    console.log("That's a wrap.")
+  })
+})}
+});
+//  for (let item of collectionIds) {
+//   syncFiles(item);
+// }
+
+
+  // This function syncs the collections to their prospective files.
+
+
+
+
+
+// for (let item of allItems) {
+//       item.then(i => function() {
+//         fs.writeFile(`./json/${i.name.replace(/\s/g, '')}.json`, i, function(err) {
+//           if(err) {
+//             return console.log(err);
+//           }
+//           console.log("The Files Have Synced!");
+//         })
+//       }
+//     )}})})
